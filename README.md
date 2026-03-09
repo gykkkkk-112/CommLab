@@ -12,7 +12,7 @@ Welcome to my work.
 
 3. [Tutorials]("What's inside a Labubu Blindbox?")
 
-Gotta change this later dont have time nah nah nah
+Gotta change this later dont have time nah nah nah imma go and do my project
 
 
 
