@@ -1,0 +1,31 @@
+body{
+    background-color:antiquewhite;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    outline: 1px black dotted;
+    justify-content:center;
+}
+
+.container div{
+    outline: 1px dotted pink; 
+    flex: 1;
+
+}
+.item img{
+    width: 200px;
+}
+
+.item1{
+    outline: 2px pink dotted;
+} 
+.header div{
+    background-color: blueviolet;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}

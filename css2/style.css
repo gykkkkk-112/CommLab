@@ -1,0 +1,22 @@
+.footstep{
+    width: 200px;
+    /* margin-left: 30px; */
+    /* margin: auto; */
+    border-image-width: auto;
+    display: block;
+}
+.japanelectricity{
+    border: 2px  dashed darkcyan;
+    width: 400px;
+    margin-bottom: 30px;
+    background-color: burlywood;
+    margin-left: 30px;
+    padding: 5px;
+    display: inline-block;
+    margin: auto;
+    width: 25%;
+}
+
+.japanelectricity :hover{
+    border: 4px solid black;
+}

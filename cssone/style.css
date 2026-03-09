@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+
+p{
+    /*this is a comment that I must make */
+    color: black; background-color: coral; font-weight: bolder;
+    text-transform: capitalize; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    letter-spacing: 5px;
+    padding-left: 20px;
+}
+
+div{
+    /*border-width: 20px;
+    border-color: blueviolet;
+    border-style: solid*/
+    margin: 10px;
+    padding: 30px;
+    
+}
+
+div p{
+         background-color: cornflowerblue;
+
+}
+.highlight1{
+
+    background-color: blueviolet;
+}
+
+.highlight2{
+    color: blanchedalmond;
+}
+
+#damn{
+    color: cadetblue;
+}
