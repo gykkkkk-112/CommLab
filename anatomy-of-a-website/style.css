@@ -420,7 +420,30 @@ body{
     font-weight: bold;
 }
 
-.stream-container{
+.popular-stream{
+    width: 1100px;
+    background-color: white;
     display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.list{
+    flex: 1;
+}
+
+.column-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 15px;
+}
+
+.stream-items{
+    display:flex;
+}
+
+.stream-items img{
+    display: inline-flex;
 }
 
