@@ -175,7 +175,7 @@ body{
     left: 0;
     width: 100%;
     padding: 20px;
-    background: linear-gradient(transparent, rgba(0, 0, 0, 0.9)); /* 黑色渐变 */
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.9)); 
     color: white;
     box-sizing: border-box; 
     z-index: 2;
