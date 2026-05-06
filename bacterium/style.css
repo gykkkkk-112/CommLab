@@ -1,0 +1,68 @@
+body{
+    background-color: darkgray;
+}
+
+.arena{
+    background-color: black;
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    margin-top: 50px;
+    border: 2px solid white;
+    position: relative;
+    
+}
+
+.bacteria{
+    width: 10px;
+    height: 10px;
+    /* border-top-left-radius: 40px; */
+    border-radius: 30% 60%;
+    /* background-color: greenyellow; */
+    /* border: .1px solid whitesmoke; */
+    /* box-shadow: 1px 1px 1px 1px  yellowgreen; */
+    background: radial-gradient(greenyellow,darkgreen);  
+    position: absolute;
+    /* left: 0; */
+    /* top: 0; */
+    transition: all 7s ease-in-out;
+    filter: blur(1px);
+    cursor: pointer;
+
+}
+
+.phage{
+    width: 20px;
+    height: 20px;
+    background: radial-gradient(red, brown);
+    border-radius: 60px;
+    filter: blur(1px);
+    position: absolute;
+    cursor: pointer;
+    transition: all 10s ease-in-out, transform 0.2s ease-out;
+    /* transition: transform 0.2s ease-out; */
+    z-index: 100;
+   
+
+}
+
+/* .phage :hover{ */
+    /* filter: brightness(1.6); */
+    /* transform: scale(1.1); */
+/* } */
+
+button{
+    border-radius: 20px;
+    margin-top: 20px;
+    /* display:inline-block; */
+    /* align-items: center; */
+    cursor: pointer;
+    background-color:blanchedalmond;
+    width: 100px;
+    height: 30px;
+
+}
+
+.wipe{
+    background-color: red;
+}

@@ -1,0 +1,37 @@
+.mainwrapper{
+    background-color: darkgray;
+    height: 300px;
+    width: 100%;
+    max-width: 500px;
+    margin:auto;
+    
+
+
+}
+
+body{
+    margin: 0;
+    background-color: forestgreen;
+}
+.headerwrapper{
+    background-color: brown;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+
+}
+.subwrapper{
+    background-color: aquamarine;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 10px;
+}
+.subwrappertheone{
+    background-color: aquamarine;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}

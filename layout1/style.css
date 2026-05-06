@@ -1,0 +1,59 @@
+body{
+    margin:0;
+    background-color: blanchedalmond;
+    
+}
+
+.box{
+    outline: 1px dashed black;
+    padding: 30px;
+    width: 200px;
+
+}
+
+
+.box p{
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.one{
+    position:relative;
+    left: 200px;
+}
+
+.two{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    
+}
+
+.three{
+    position: fixed;
+    left: 20px;
+    top: 14px;
+}
+
+.six{
+    height: 1500px;
+}
+
+.seven{
+    margin: auto;
+    width: 100%;
+    max-width: 300px;
+    height: 50vh ;
+    position: relative;
+}
+
+.sevenschildren{
+   width: 55px;
+   outline: green 1px dotted;
+
+}
+
+.sevenschildren p{
+    background-color: black;
+    color: greenyellow;
+}

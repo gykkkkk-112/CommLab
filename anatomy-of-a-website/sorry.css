@@ -1,0 +1,100 @@
+.void-error-screen {
+    height: 100vh;
+    background-color: black; /* 纯黑背景 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace; 
+    color:white;
+    text-align: center;
+}
+
+.error-container {
+    max-width: 800px;
+}
+
+.error-code {
+    font-size: 120px;
+    margin: 0;
+    letter-spacing: -10px;
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.5);
+
+}
+   
+
+.error-line {
+    width: 100%;
+    height: 1px;
+    background: #333;
+    margin: 20px 0;
+}
+
+.error-message {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.error-suggestion {
+    font-size: 16px;
+    color: #888; 
+    letter-spacing: 2px;
+}
+
+
+@keyframes flicker {
+    0% { opacity: 0.9; }
+    100% { opacity: 1; text-shadow: 0 0 20px rgba(255,255,255,0.2); }
+}
+
+
+.loading-dots span {
+    animation: dots 1.5s infinite;
+    font-size: 30px;
+}
+.loading-dots span:nth-child(2) { animation-delay: 0.2s; }
+.loading-dots span:nth-child(3) { animation-delay: 0.4s; }
+
+@keyframes dots {
+    0%, 20% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.return-button {
+    display: inline-block;
+    margin-top: 50px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', monospace;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    position: relative;
+    border: 1px solid transparent;
+}
+
+
+.btn-bracket {
+    color: red; 
+    transition: 0.3s;
+}
+
+
+.return-button:hover {
+    background: red;
+    color: #000;
+    box-shadow: 0 0 30px red;
+    transform: translateY(-5px); 
+}
+
+.return-button:hover .btn-bracket {
+    color: black;
+}
+
+
+.return-button:active {
+    transform: translateY(2px);
+    box-shadow: 0 0 10px red;
+}

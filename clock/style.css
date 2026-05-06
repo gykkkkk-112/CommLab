@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+}
+
+.clock{
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.textend{
+    margin: auto;
+    margin-top: 20px;
+}
+
+.textend span{
+    display: inline-block;
+    position: relative;
+    transition: transform 0.9s linear;
+}
+
+.textone{
+    color: transparent;
+    background: linear-gradient(to right, red 0%, white 0%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    
+    transition: background 1s linear;
+    
+}
+
+.textMinute{
+    color: transparent;
+    background: linear-gradient(to left, cyan 0%, white 0%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    
+    transition: background 1s linear;
+}

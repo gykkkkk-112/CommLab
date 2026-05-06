@@ -1,0 +1,108 @@
+body{
+    background-color: blanchedalmond;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); 
+  /* gap: 8px; */
+  width: 600px;
+  margin: 100px auto;
+  /* border: 3px solid red; */
+}
+
+span {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  /* font-weight: bold; */
+  /* width: 60px; */
+  font-family:fantasy;
+  width: 100%;
+  height: 60px;
+
+  background: white;
+  color: black;
+  font-size: 10px;
+  text-align: center;
+  aspect-ratio: 1/1;
+  border: 2px solid darkcyan;
+}
+
+span{
+    
+    animation: bounce 0.43s ease-in-out infinite;
+    
+}
+
+
+
+
+
+@keyframes bounce {
+    0%   { transform: scale(1); background-color: white; color: aliceblue; box-shadow: 0 0 8px white;}
+  30%  { transform: scale(1.07); background-color:hotpink; color: aquamarine; box-shadow: 0 0 8px hotpink;}
+  60% { transform: translateY(0.95); background-color: cyan; color: blue; box-shadow: 0 0 8px cyan;}
+   100% { transform: translateY(1); background-color: white; color: black; box-shadow: 0 0 8px white;}
+    
+}
+
+.yes { animation-delay: 0.00s; }
+
+
+.iure{ animation-delay: 0.11s; }
+.quidem { animation-delay: 0.11s; }
+
+
+.Repellendus{ animation-delay: 0.22s; }
+.consequatur { animation-delay: 0.22s; }
+.exercitationem { animation-delay: 0.22s; }
+
+
+.eaque { animation-delay: 0.33s; }
+.laudantium { animation-delay: 0.33s; }
+.iusto { animation-delay: 0.33s; }
+.repellat { animation-delay: 0.33s; }
+
+
+
+.consectetur{ animation-delay: 0.44s; }
+.architecto { animation-delay: 0.44s; }
+.ullam { animation-delay: 0.44s; }
+.totam { animation-delay: 0.44s; }
+.Nisi { animation-delay: 0.44s; }
+
+
+
+.facere { animation-delay: 0.56s; }
+.itaque { animation-delay: 0.56s; }
+.quam { animation-delay: 0.56s; }
+.voluptatibus { animation-delay: 0.56s; }
+.amet { animation-delay: 0.56s; }
+
+
+.illo{animation-delay: 0.67s; }
+.natus { animation-delay: 0.67s; }
+.Dolores { animation-delay: 0.67s; }
+.sit { animation-delay: 0.67s; }
+
+.dolor{animation-delay: 0.78s; }
+.elit { animation-delay: 0.78s; }
+.voluptate { animation-delay: 0.78s; }
+
+.adipisicing{animation-delay: 0.89s; }
+.ipsum { animation-delay: 0.89s; }
+
+.Lorem{ animation-delay: 1.00s; }
+
+body {
+    animation: bodpulse 1.28s steps(1) infinite;
+}
+
+@keyframes bodpulse {
+    0%   { background-color: pink; }
+    33%  { background-color:blanchedalmond; }
+    66%  { background-color:cornflowerblue; }
+    99% { background-color:crimson; }
+}
