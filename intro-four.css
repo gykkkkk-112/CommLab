@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+    color:brown; 
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.intro-container {
+    text-align: center;
+    width: 600px;
+}
+
+.chapter-title {
+    font-size: 32px;
+    letter-spacing: 5px;
+    margin-bottom: 40px;
+    color: RED;
+}
+
+.brief-container {
+    border: 1px solid red;
+    padding: 30px;
+    background: black;
+    margin-bottom: 50px;
+}
+
+.brief-text {
+    font-size: 18px;
+    line-height: 1.8;
+    letter-spacing: 1px;
+}
+
+.continue-btn {
+    color: red;
+    text-decoration: none;
+    border: 1px solid red;
+    padding: 15px 30px;
+    font-size: 16px;
+    transition: all 0.5s ease;
+    display: inline-block;
+}
+
+.continue-btn:hover {
+    background-color: darkred;
+    color: white;
+    box-shadow: 0 0 20px grey;
+}
+

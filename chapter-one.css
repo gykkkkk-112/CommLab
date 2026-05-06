@@ -1,0 +1,151 @@
+
+
+p{
+    /* outline: 1px solid red; */
+    /* width:210px; */
+    width: 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    /* margin:auto; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Courier New', Courier, monospace;
+ }
+
+ .putPoem{
+   
+    flex: 0.65;
+    width: 100%;
+    height: 100%;
+    /* position: fixed; */
+    /* top: 0; */
+    /* left:0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .poem-container{
+    text-align: left;
+    width: 210px;
+    /* outline: blue 1px dotted; */
+ }
+
+ .windowHeight{
+    height:100vh;
+    width:100%;
+    /* outline: 3px dotted red */
+}
+
+.left-terminal div{
+   color: darkgreen;
+   font-family: 'Consolas', 'Monaco', monospace;
+   font-size: 11px;
+   letter-spacing: 1px;
+   /* position: absolute; */
+   
+
+}
+
+
+
+#scrollhint{
+    color: darkred;
+}
+
+.left-terminal{
+    flex: 0.35;
+    border-right: 1px solid black;
+    padding: 30px;
+    background-color: black;
+    overflow: hidden;
+    scrollbar-width: none;
+}
+
+.machineContainer{
+   position: fixed;
+   display: flex;
+   top: 10vh;
+   left: 5vw;
+   width: 90vw;
+   height: 60vh;
+   border: 1px solid black;
+
+}
+
+.data-slots {
+    position: fixed;
+    bottom: 15vh;
+    left: 5vw;
+    width: 90vw;
+    height: 10vh;
+    display: flex;
+    gap: 20px;
+    /* padding-top: 60px; */
+}
+
+.slot {
+    flex: 1;
+    border: 1px solid black;
+    color: darkgray; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', monospace;
+    font-weight: bolder;
+}
+
+.code{
+   opacity: 0;
+   transition: opacity 0.3s ease;
+}
+
+.hidden-entrance {
+    /* display: none; */
+    text-align: center;
+    margin-top: 60px;
+    padding-bottom: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    position: fixed;
+    position: fixed;
+    bottom: 20px;    
+    left: 40.5%;
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+    z-index: 99;
+}
+
+
+.status-msg {
+    color: darkgrey; 
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.text-link {
+    color:darkcyan;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.text-link:hover {
+    color:cornflowerblue;
+    transform: scale(1.2);
+}
+
+.transition-layer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    opacity: 0;
+    z-index: 10000;
+    pointer-events: none;
+    transition: opacity 1.5s ease-in-out;
+}

@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.chapterThree{
+    display: flex;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+
+
+.narrator{
+    flex: 35%;
+    overflow: scroll;
+    scrollbar-width: none;
+    display: flex;
+    flex-direction: column; /* 纵向排列 */
+    /* justify-content: flex-end; */
+    padding-left: 40px;
+}
+
+.pfourtwo, .pthreetwo, .choice2res, .finalchoice p, .it, .inland, .p4response p, .p4choice p, .p1 p, .p2 p, .choice1res, .pthreeone, .p4 p{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.finalchoice p, .p5, .p4response, .p4choice, .p4, .p1, .p2, .p2response, .p3{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 20px; */
+
+}
+
+
+
+.finalchoice, .it, .p2, .p2response p, .p3 p, .p4, .p4choice, .p4response p, .inland, .finalchoice {
+    display: none;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+.pfourtwo, .choice2res, .finalchoice, .it, .inland, .p4response p, .p4 p, .p3 p, .choice1res, .continueair, .choiceone, .choicetwo, .fourchoiceone, .fourchoicetwo, .finalchoiceone, .finalchoicetwo {
+    color: white;
+    cursor: pointer;
+}
+.pfourtwo:hover, .choice2res:hover, .finalchoice:hover, .it:hover, .inland:hover, .p4response p:hover, .p4 p:hover, .p3 p:hover, .choice1res:hover, .continueair:hover, .choiceone:hover, .choicetwo:hover, .fourchoiceone:hover, .fourchoicetwo:hover, .finalchoiceone:hover, .finalchoicetwo:hover {
+    color: red;
+    transition: 2s ease-in-out;
+}
+
+
+.visual{
+    flex: 65%;
+    position: relative;
+    background-color: darkgrey;
+    display: flex;
+    flex-direction:column;
+    height: 100vh;
+   
+    overflow: hidden;
+}
+
+.codedropslot{
+    /* flex: 1; */
+    width: 100%;
+    min-height: 15px;
+    /* outline: 1px black solid; */
+    position: relative;
+    /* border: 1px red dotted; */
+
+}
+
+.memories{
+    height: 8%;
+    /* background-color: darkblue; */
+    /* background: linear-gradient(to top, transparent, black); */
+    width: auto;
+    height: auto;
+    font-family: 'Courier New', Courier, monospace;
+    color: darkgreen;
+    white-space: nowrap;
+    position: absolute;
+    transform: translateX(-100%);
+    left: -100%;
+    top: 50%;
+    animation: moving 5s linear infinite;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 20px 40px; 
+    margin: -20px -40px; 
+    pointer-events: auto;
+}
+
+.memories:hover{
+    animation-play-state: paused;
+    transform: scale(1.5);
+}
+
+@keyframes moving{
+    from{
+        left: -100%;
+    }
+    to{
+       left: 170%; 
+    }
+}
+
+.p5-pause{
+    display: none;
+    opacity: 0;
+    transition: opacity 1s ease;
+    cursor: pointer;
+    color: white;
+    
+}
+
+.final-dots{
+    display: none;
+    opacity: 0;
+    transition: opacity 1s ease;
+    cursor: pointer;
+    color: white;
+    margin: 20px 0;
+    font-family: 'Courier New', Courier, monospace;
+}
