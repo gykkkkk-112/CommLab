@@ -218,7 +218,7 @@ function windowWasScrolled() {
         let codePerc = (percentage-0.4)/.6;
         console.log("codePerc",codePerc)
         let availableScrollPixels = document.querySelector(".left-terminal").scrollHeight - (window.innerHeight*.6);
-        document.querySelector(".left-terminal").scrollTop = availableScrollPixels*codePerc``
+        document.querySelector(".left-terminal").scrollTop = availableScrollPixels*codePerc;
     }
     
 }
