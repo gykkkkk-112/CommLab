@@ -58,7 +58,7 @@ document.querySelector(".audio").addEventListener("click", function() {
 let startButton = document.querySelector(".begins");
 let narrative = document.querySelector(".narrative");
 let narrativetext = document.querySelector(".narrative-text");
-let story = "Protocol: The Zone no longer exists in the wet soil or the rusted ruins of Pripyat. It has retreated into the architecture of the deep web, deep beneath the vast, forgotten human memories. A <span class='secret-link' id= 'secret'>traveller</span> is finally here. Bravely set foot upon an undiscovered country, seeking to recover the light behind the corrupted data. Welcome to the Digital Zone. [FIND THE ENTRANCE AMONG THE TEXT] "
+let story = "Protocol: The Zone no longer exists in the wet soil or the rusted ruins of Pripyat. It has retreated into the architecture of the deep web, deep beneath the vast, forgotten human memories. A <span class='secret-link' id= 'secret'>traveller</span> is finally here. Bravely set foot upon an undiscovered country, seeking to recover the light behind the corrupted data. Welcome to the Digital Zone. [FIND THE ENTRANCE HIDDEN IN THE TEXT] "
 let title = document.querySelector(".title");
 let buts = document.querySelector(".buts");
 let body = document.body;
