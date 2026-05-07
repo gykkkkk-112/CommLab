@@ -4,7 +4,7 @@ A Project by: Yukuan Ge
 
 ---
 
-An interactive journey that explores the ruins of time and fragmented memories from an era before the digital revolution.s
+An interactive journey that explores the ruins of time and fragmented memories from an era before the digital revolution.
 
 ![START](front.gif)
 *Beginning of the adventure*
