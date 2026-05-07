@@ -81,7 +81,7 @@ body {
 }
 
 .blind {
-    height: 200%;
+    height: 170%;
     width: 100%;
     overflow-y: scroll; 
     scrollbar-width: none; 
@@ -174,7 +174,7 @@ body {
     text-align: center;
     margin-top: 40px;
     width: 800px;
-    margin-right: 450px;
+    margin-right: 50vh;
     transition: all 2s linear;
     
 }

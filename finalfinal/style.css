@@ -166,13 +166,13 @@ a{
 
 .secret-link{
     cursor: pointer;
-    color: inherit;
+    color: darkcyan;
     transition: all 1s ease;
     display: inline-block;
 }
 
 .secret-link:hover{
-    color:darkcyan; 
+    color:red; 
     transform: scale(1.1); 
     
 }
